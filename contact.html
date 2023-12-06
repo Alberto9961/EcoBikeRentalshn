@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Contact</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/blog-style.css" rel="stylesheet">
+    <link href="assets/css/contact.css" rel="stylesheet">
+    <!-- For Font style -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700,800" rel="stylesheet">
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="assets/css/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl-carousel/owl.theme.default.min.css">
+</head>
+
+<body>
+    <section class="header" id="header">
+        <div class="navbar-option">
+            <div class="container">
+                <nav class="navbar navbar-default">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>                        
+                        </button>
+                        <a class="navbar-brand" href="index.html"><img src="assets/images/bike1.png" alt="" /></a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav navbar-left">
+                            <li><a href="index.html">Inicio</a></li>
+                            <li><a href="about.html">Acerca de</a></li>
+                            <li><a href="blog.html">Coorporativo</a></li>
+                            <li><a href="gallery.html">Galeria</a></li>
+                            <li><a href="contact.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </section>
+    <section class="contact-form">
+        <div class="container">
+            <div class="contact-heading">
+                <h1 style="color: #168F49;">Contactenos</h1>
+                <h3>Puede hacer tus reservas y consultas mediante el formulario de envio...</h3>
+            </div>
+            <form id="contact" action="conexion/saveContacto2.php" method="post">
+                <h3>Deja tu consulta aqui</h3>
+                <fieldset>
+                    <input placeholder="Nombre" type="text" name="nombre" tabindex="1" required autofocus>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Correo Electronico" name="email" type="email" tabindex="2" required>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Su numero de telefono (optional)" name="telefono" type="tel" tabindex="3" required>
+                </fieldset>
+                <fieldset>
+                    <textarea placeholder="Escriba su comentario aqui...."  name="comentario" tabindex="5" required></textarea>
+                </fieldset>
+                <fieldset>
+                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Enviar</button>
+                </fieldset>
+            </form>
+
+        </div>
+
+    </section>
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-6">
+                        <div class="footer-content">
+                            <div class="footer-logo">
+                                <img src="assets/images/bike1.png" alt="" />
+                            </div>
+                            <div class="footer-text">
+                                <p>
+                                    Cuando aprendes a montar en bicicleta, tu vida cambia por completo.
+                                    Montar en bicicleta es como la vida misma, al igual que la vida es como montar en bicicleta. Sigue pedaleando para mantener el equilibrio
+                                </p>
+                            </div>
+                            <div class="footer-address">
+                                <ul>
+                                    <li><a href="https://www.google.com/maps/place/15%C2%B030'28.4%22N+88%C2%B002'50.8%22W/@15.5078883,-88.0480787,19z/data=!3m1!4b1!4m4!3m3!8m2!3d15.507887!4d-88.047435?entry=ttu" target="_blank"><i class="fa fa-map-marker" aria-hidden="false"></a></i> Colonia Moderna, San Pedro Sula 21102
+                                    </li>
+
+                                    <li>
+                                        <i class="fa fa-phone" aria-hidden="true"></i> +(504)2550-3548
+
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-envelope" aria-hidden="true"></i> ecobike@rentalshn.com
+
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="footer-content">
+                            <div class="news">
+                                <p>
+                                    Nuestras Redes Sociales
+                                </p>
+                            </div>
+                            <div class="social-icons">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i>
+
+                                       FACEBOOK</a></li>
+                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i>
+
+                                       TWITTER</a></li>
+                                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i>
+                                       INSTAGRAM</a></li>
+                                </ul>
+                            </div>
+                            <p class="copyright">
+                                Copyright 2023. EcoBike RentalHn | Distributed by <a href="https://ecobikerentalhn.com/">Honduras</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/owl-carousel/owl.carousel.min.js"></script>
+    <script src="assets/js/owl-carousel/highlight.js"></script>
+    <script src="assets/js/owl-carousel/app.js"></script>
+    <script>
+        $(document).ready(function() {
+            var owl = $('.owl-carousel');
+            owl.owlCarousel({
+                margin: 10,
+                nav: true,
+                loop: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 1
+                    },
+                    1000: {
+                        items: 1
+                    }
+                }
+            })
+        })
+    </script>
+
+</body>
+
+</html>
